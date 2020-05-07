@@ -10,9 +10,14 @@ Midnight Crew Trading is a trusted FX signals provider getting your trading to t
 * Certain pages cannot be accessed when not logged in, such as the live signals page or chat forum
 
 ## 2. Chat and Discussion Forum
+* Users who have signed up can participate in a discussion forum
+* The discussion forum will have a range of topics from FX-related or other financial markets to off topic discussions
+* Admin users and moderators will police the forum
 
 ## 3. FX Signals Page
-* 
+* Up-to-date real-time signals will be shown on this page
+* A platform for admin will be created that allows this page to use it as an API endpoint to get up-to-date trade information
+* The platform will easily allow admin to enter trades and exit trades as they would be in real-time
 
 ## 4. Sign Up Page
 * For signing in, a dropdown on the navbar will be used to allow users to sign in
