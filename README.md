@@ -1,24 +1,18 @@
-# README
+# MCT Title
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+## Technologies
 
-* Ruby version
+## Design Choices
+* The choice of **Ruby on Rails** framework was made over other options like **Node.js/Express.js** or **Java/Spring** because the app should be deployed as quickly as possible.
+* **React.js** was chosen for the frontend due to making code reusable and simplifying many things compared to **vanilla JavaScript** or **jQuery**. It also allows ease of use compared to other view layer libraries such as **Angular.js** or **Vue.js**.
+* Using **PostgreSQL** as a database over noSQL databases because it allows more flexibility, stability, speed for querying, and relational data.
 
-* System dependencies
+## Important MVPs
+[ ] User authentication
+[ ] Discussion forums
+[ ] Live FX signals for members
+[ ] A FAQ section that tells the user what we are about
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Future Features
