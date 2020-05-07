@@ -16,3 +16,16 @@
 * **Jest/Enzyme** go well together when as a test framework when testing a React.js/JavaScript setup. **RSpec Rails** is also a powerful testing option for **Ruby on Rails**.
 * A combination of **Faker** and **FactoryBot** will be used to quickly setup dummy data for testing.
 * **Capybara** is going to be used for integration tests because it makes it easy to simulate how a user interacts with the application
+
+## Hosting
+* The app's initial production deployment will utilize **AWS EC2**, **AWS RDS**, and **AWS S3** for a fully-packaged cloud hosting option because it allows us to have access to everything on the cloud in one place
+* After discussion with partners, a decision will be made on where/how to host the app on a paid-tiered host provider
+
+## Design
+* The **CSS Bootstrap** library will be utilized to quickly piece together components in order to have the app production ready as soon as possible
+
+## Additional Libraries
+* **OmniAuth** will be used along with custom authentication to give users a variety of options for signing up. In the future, 2FA can be visited to built a fully-fledged secure authentication system.
+* **CanCan** library will be utilized to give restricted access via authorization to certain routes for a user. This will come in handy when dividing between admin, paid user, and browing user.
+* Along with debouncing/throttling practices, **Kaminari** will be used as a paginator to load pages more smoothly.
+* **Thredded** will be used to create the forum and take out majority of the work of setting up a fully-functioning forum-based web page.
