@@ -10,9 +10,9 @@
 * Using **PostgreSQL** as a database over noSQL databases because it allows more flexibility, stability, speed for querying, and relational data.
 
 ## Important MVPs
-[ ] User authentication
-[ ] Discussion forums
-[ ] Live FX signals for members
-[ ] A FAQ section that tells the user what we are about
+- [ ] User authentication
+- [ ] Discussion forums
+- [ ] Live FX signals for members
+- [ ] A FAQ section that tells the user what we are about
 
 ## Future Features
