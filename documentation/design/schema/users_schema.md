@@ -3,10 +3,13 @@
 |-|-|-|
 |`id`|integer|not null, primary key|
 |`email`|string|not null|
-|`username`|string|not null, citext|
+|`username`|string|not null, citext, indexed, unique|
 |`password_digest`|string|not null|
+|`session_token`|string|not null, indexed, unique|
 |`first_name`|string|not null|
 |`last_name`|string|not null|
 |`is_verified`|boolean|not null|
 |`created_at`|datetime|not null|
 |`updated_at`|datetime|not null|
+* index on `username, unique: true`
+* index on `session_token, unique: true`
