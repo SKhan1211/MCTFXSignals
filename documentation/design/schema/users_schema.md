@@ -1,0 +1,12 @@
+`users`
+|column name|data type|details|
+|-|-|-|
+|`id`|integer|not null, primary key|
+|`email`|string|not null|
+|`username`|string|not null, citext|
+|`password_digest`|string|not null|
+|`first_name`|string|not null|
+|`last_name`|string|not null|
+|`is_verified`|boolean|not null|
+|`created_at`|datetime|not null|
+|`updated_at`|datetime|not null|
