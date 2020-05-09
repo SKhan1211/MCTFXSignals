@@ -3,7 +3,7 @@
 |-|-|-|
 |`id`|integer|not null, primary key|
 |`email`|string|not null, indexed, unique|
-|`username`|string|not null, citext, indexed, unique|
+|`username`|string|not null, indexed, unique|
 |`password_digest`|string|not null|
 |`session_token`|string|not null, indexed, unique|
 |`first_name`|string|not null|
