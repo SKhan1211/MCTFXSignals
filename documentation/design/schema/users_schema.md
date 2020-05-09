@@ -2,7 +2,7 @@
 |column name|data type|details|
 |-|-|-|
 |`id`|integer|not null, primary key|
-|`email`|string|not null|
+|`email`|string|not null, indexed, unique|
 |`username`|string|not null, citext, indexed, unique|
 |`password_digest`|string|not null|
 |`session_token`|string|not null, indexed, unique|
@@ -13,3 +13,4 @@
 |`updated_at`|datetime|not null|
 * index on `username, unique: true`
 * index on `session_token, unique: true`
+* index on `email, unique: true`
