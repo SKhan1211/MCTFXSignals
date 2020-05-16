@@ -10,10 +10,10 @@ import Splash from './splash/splash';
 
 const App = () => (
   <div>
-    <header>
+    {/* <header>
       <h1>MCT FX Signals</h1>
       <NavbarContainer />
-    </header>
+    </header> */}
     <Switch>
       <Route exact path="/" component={Splash} />
       <AuthRoute path="/login" component={LogInFormContainer} />
