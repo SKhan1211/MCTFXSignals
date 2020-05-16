@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Splash = ({ currentUser, logout }) => {
+const Navbar = ({ currentUser, logout }) => {
   const sessionLinks = () => (
     <nav className="login-signup">
       <Link to="/login">Login</Link>
@@ -19,4 +19,4 @@ const Splash = ({ currentUser, logout }) => {
   return currentUser ? personalGreeting() : sessionLinks();
 };
 
-export default Splash;
+export default Navbar;
