@@ -1,8 +1,13 @@
 import React from 'react';
 
+import SplashContainer from './splash/splash_container';
+
 const App = () => (
   <div>
-    <h1>MCT FX Signals</h1>
+    <header>
+      <h1>MCT FX Signals</h1>
+      <SplashContainer />
+    </header>
   </div>
 );
 
