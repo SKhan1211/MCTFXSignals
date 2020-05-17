@@ -2,6 +2,12 @@
 
   height: 43vh; // Test
   background-color: $richblack; // Test
+  background-image: 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("https://images.unsplash.com/photo-1517424788495-0d03ec42e244?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   nav {
     display: flex;
@@ -30,7 +36,7 @@
     color: $platinum;
     border: 1px solid $platinum;
     border-radius: 3px;
-    background-color: $richblack;
+    background-color: transparent;
     font-size: 2.3vh;
   }
 
@@ -42,7 +48,7 @@
     font-size: 2.3vh;
     border: 1px solid $sweetbrown;
 
-    box-shadow: 2px 2px 5px -1px #2b2b2b; // Test
+    box-shadow: 3px 1px 7px 1px #000000; // Test
   }
 }
 
