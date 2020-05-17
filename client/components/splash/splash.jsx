@@ -31,15 +31,27 @@ const Splash = (props) => {
         <main>
           <p>Get your first signal FREE, on us!</p>
           <p>
-            Midnight Crew Trading is a trusted FX signals provider getting your 
-            trading to the level it needs to be. We take the deep research and 
-            analysis out of your trading so you can sit back and watch your 
-            account grow.
+            Transform your trading by joining the MCT community.
+            Gain access to accurate signals, trade analysis, and market commentary. 
+            We trade what we teach and will empower you to grow with us!
           </p>
+          <div className="splash-section-services main__button-container">
+            <button>Get Started Now</button>
+            <button>Learn More</button>
+          </div>
         </main>
 
       </section>
-      <section className="splash-section-whyus container"></section>
+      <section className="splash-section-whyus container">
+
+        {/* <p>
+          Midnight Crew Trading is a trusted FX signals provider getting your 
+          trading to the level it needs to be. We take the deep research and 
+          analysis out of your trading so you can sit back and watch your 
+          account grow.
+        </p> */}
+
+      </section>
     </div>
   )
 };
