@@ -5,9 +5,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
-  height: 43vh; // Test
-  background-color: $richblack; // Test
+  background-color: $richblack;
   
   /* Nav section */
   nav {
@@ -126,13 +124,12 @@
     text-shadow: 3px 1px 7px#000000;
     justify-content: space-between;
     height: 22.2vh;
+    padding-bottom: 19vw;
   }
 }
 
 .splash-section-services.container {
-
-  height: 57vh; // Test
-  background-color: $platinum; // Test
+  background-color: $platinum;
 
   /* Social Media Section */
   nav {
@@ -183,6 +180,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding-bottom: 5vw;
 
       button {
         background-color: $sweetbrown;
@@ -233,7 +231,44 @@
 }
 
 .splash-section-whyus.container {
+  font-family: $roboto;
   
   height: 43vh; // Test
   background-color: $sectionlightgray; // Test
+
+  header {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p:first-of-type {
+      color: $sweetbrown;
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding: 16px 0;
+      letter-spacing: 5px;
+    }
+
+    p:last-of-type {
+      color: $richblack;
+      text-transform: uppercase;
+      font-size: 33px;
+      font-weight: 600;
+      padding: 0px 0;
+      letter-spacing: 3px;
+
+      span {
+        color: $sweetbrown;
+      }
+    }
+
+    .header__line {
+      border-bottom: 1px solid $richblack;
+      padding: 8px;
+      width: 75%;
+    }
+  }
 }
