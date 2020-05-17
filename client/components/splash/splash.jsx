@@ -21,13 +21,22 @@ const Splash = (props) => {
         </main>
       </section>
       <section className="splash-section-services container">
-
-        <footer>
+        <nav>
           <a href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></a>
           <a href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></a>
           <a href="https://www.twitter.com/" target="_blank"><i className="fab fa-twitter"></i></a>
-        </footer>
+        </nav>
+
+        <main>
+          <p>Get your first signal FREE, on us!</p>
+          <p>
+            Midnight Crew Trading is a trusted FX signals provider getting your 
+            trading to the level it needs to be. We take the deep research and 
+            analysis out of your trading so you can sit back and watch your 
+            account grow.
+          </p>
+        </main>
 
       </section>
       <section className="splash-section-whyus container"></section>

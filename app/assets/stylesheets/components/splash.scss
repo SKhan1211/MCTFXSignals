@@ -135,7 +135,7 @@
   background-color: $platinum; // Test
 
   /* Social Media Section */
-  footer {
+  nav {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -144,18 +144,36 @@
 
     a {
       color: $granitegray;
-    }
 
-    i {
+      i {
       cursor: pointer;
+      }
+
+      i:hover {
+        color: #a73b3e;
+      }
+
+      i:focus {
+        color: #a73b3e;
+      }
+    }
+  }
+
+  /* Main Content */
+  main {
+    font-family: $roboto;
+
+    p:nth-of-type(1) {
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      padding: 5px 12px;
+      color: $richblack;
     }
 
-    i:hover {
-      color: $manatee;
-    }
-
-    i:focus {
-      color: $manatee;
+    p:nth-of-type(2) {
+      text-align: center;
+      padding: 5px 12px;
     }
   }
 }
