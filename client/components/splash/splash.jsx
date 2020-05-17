@@ -23,10 +23,10 @@ const Splash = (props) => {
       <section className="splash-section-services container">
 
         <footer>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-youtube"></i>
-          <i class="fab fa-twitter"></i>
+          <a href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></a>
+          <a href="https://www.twitter.com/" target="_blank"><i className="fab fa-twitter"></i></a>
         </footer>
 
       </section>

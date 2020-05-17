@@ -133,4 +133,29 @@
 
   height: 57vh; // Test
   background-color: $platinum; // Test
+
+  /* Social Media Section */
+  footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 4vw 0;
+    font-size: 6vw;
+
+    a {
+      color: $granitegray;
+    }
+
+    i {
+      cursor: pointer;
+    }
+
+    i:hover {
+      color: $manatee;
+    }
+
+    i:focus {
+      color: $manatee;
+    }
+  }
 }
