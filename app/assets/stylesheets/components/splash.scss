@@ -76,6 +76,7 @@
     box-shadow: 3px 1px 7px 1px #000000;
     cursor: pointer;
     transition: all 0.15s ease-in-out;
+    position: relative;
   }
 
   .nav__right-side__join-us:focus {
@@ -85,11 +86,31 @@
     color: #c1bbbb;
   }
 
-  .nav__right-side__join-us:hover {
+  .nav__right-side__join-us:before {
+    content: "";
     outline: 0;
-    background-color: #902a2d;
-    border: 1px solid #902a2d;
+    background-color: #e6666a40;
     color: #c1bbbb;
+    position: absolute;
+    border-radius: 30%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scale(0);
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transform-origin: 50%;
+  }
+
+  .nav__right-side__join-us:hover:before {
+    transform: scale(1);
+    border-radius: 3px;
+    transition: all 0.2s;
+  }
+
+  .nav__right-side__join-us:hover {
+    color: white;
   }
 }
 
