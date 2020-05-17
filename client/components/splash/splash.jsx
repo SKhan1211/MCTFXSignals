@@ -6,7 +6,7 @@ const Splash = (props) => {
       <section className="splash-section-header container">
         <nav>
           <div className="splash-section-header nav__left-side">
-            <i class="fas fa-bars"></i>
+            <i className="fas fa-bars"></i>
             <div className="PLACEHOLDER">LOGO</div> {/* Logo placeholder */}
           </div>
           <div className="splash-section-header nav__right-side">
