@@ -38,6 +38,13 @@
     border-radius: 3px;
     background-color: transparent;
     font-size: 2.3vh;
+    font-family: $roboto;
+  }
+
+  .nav__right-side__sign-in:focus {
+    outline: 0;
+    color: #c1bbbb;
+    border: 1px solid #c1bbbb;
   }
 
   .nav__right-side__join-us {
@@ -47,8 +54,15 @@
     margin-left: 20px;
     font-size: 2.3vh;
     border: 1px solid $sweetbrown;
+    font-family: $roboto;
+    box-shadow: 3px 1px 7px 1px #000000;
+  }
 
-    box-shadow: 3px 1px 7px 1px #000000; // Test
+  .nav__right-side__join-us:focus {
+    outline: 0;
+    background-color: #902a2d;
+    border: 1px solid #902a2d;
+    color: #c1bbbb;
   }
 }
 
