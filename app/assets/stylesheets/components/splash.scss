@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    padding: 2vh 4vw;
+    padding: 1vh 4vw;
   }
 
   .nav__left-side {
@@ -23,9 +23,10 @@
   i {
     color: $platinum;
     margin-right: 20px;
-    font-size: 3.3vh;
+    font-size: 4.7vh;
     cursor: pointer;
     transition: all 0.15s ease-in-out;
+    align-self: center;
   }
 
   i:hover:focus {
@@ -36,9 +37,8 @@
     color: #c1bbbb;
   }
 
-  .PLACEHOLDER { /* LOGO PLACEHOLDER */ // Test
-    background-color: $granitegray;
-    color: $manatee;
+  img {
+    height: 18vw;
   }
   
   .nav__right-side__sign-in {
@@ -46,7 +46,7 @@
     border: 1px solid $platinum;
     border-radius: 3px;
     background-color: transparent;
-    font-size: 2.3vh;
+    font-size: 3.2vh;
     font-family: $roboto;
     cursor: pointer;
     transition: all 0.15s ease-in-out;
@@ -69,7 +69,7 @@
     color: $platinum;
     border-radius: 3px;
     margin-left: 20px;
-    font-size: 2.3vh;
+    font-size: 3.1vh;
     border: 1px solid $sweetbrown;
     font-family: $roboto;
     box-shadow: 3px 1px 7px 1px #000000;

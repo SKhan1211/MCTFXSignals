@@ -7,7 +7,7 @@ const Splash = (props) => {
         <nav>
           <div className="splash-section-header nav__left-side">
             <i className="fas fa-bars"></i>
-            <div className="PLACEHOLDER">LOGO</div> {/* Logo placeholder */}
+            <img src="https://lh6.googleusercontent.com/lkoLPdhQyoy-4ZpNP63qcFxmaipeNH55YSDx8hVMTyiMB3kaMxRv1gI8GuboQ45qWOXOpbdLaImF8oT0MYcc=w2880-h1304"></img>
           </div>
           <div className="splash-section-header nav__right-side">
             <button className="splash-section-header nav__right-side__sign-in" onClick={() => props.history.push('/login')}>Sign In</button>
