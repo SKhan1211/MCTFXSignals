@@ -11,7 +11,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile 
-    image: skhan1211/mct-fx-signals
+    image: skhan1211/mct-fx-signals:0.1
     volumes:
       - .:/my_app
     ports: 
