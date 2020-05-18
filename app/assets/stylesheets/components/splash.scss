@@ -23,7 +23,7 @@
   i {
     color: $platinum;
     margin-right: 20px;
-    font-size: 4.7vh;
+    font-size: 8vw;
     cursor: pointer;
     transition: all 0.15s ease-in-out;
     align-self: center;
@@ -38,7 +38,7 @@
   }
 
   img {
-    height: 18vw;
+    height: 19vw;
   }
   
   .nav__right-side__sign-in {
@@ -46,7 +46,7 @@
     border: 1px solid $platinum;
     border-radius: 3px;
     background-color: transparent;
-    font-size: 3.2vh;
+    font-size: 5.3vw;
     font-family: $roboto;
     cursor: pointer;
     transition: all 0.15s ease-in-out;
@@ -69,7 +69,8 @@
     color: $platinum;
     border-radius: 3px;
     margin-left: 20px;
-    font-size: 3.1vh;
+    font-size: 5vw;
+
     border: 1px solid $sweetbrown;
     font-family: $roboto;
     box-shadow: 3px 1px 7px 1px #000000;
