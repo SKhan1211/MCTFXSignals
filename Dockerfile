@@ -14,7 +14,7 @@ COPY . /usr/src/node_app
 
 RUN npm run postinstall
 
-FROM ruby:2.5.8-alpine
+FROM ruby:2.5.1-alpine
 
 RUN apk add --no-cache --update build-base \
   linux-headers \

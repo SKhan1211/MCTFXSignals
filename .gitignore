@@ -34,3 +34,6 @@ bundle.js.map
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+*docker-compose*
+Dockerfile
