@@ -29,6 +29,7 @@
 node_modules/
 bundle.js
 bundle.js.map
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
