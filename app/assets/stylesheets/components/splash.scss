@@ -237,7 +237,7 @@
 .splash-section-whyus.container {
   font-family: $roboto;
   
-  height: 150vh; // Test
+  height: 250vh; // Test
   background-color: $sectionlightgray; // Test
 
   header {
@@ -300,6 +300,10 @@
           color: #bb6262;
         }
 
+        .fa-dollar-sign {
+          padding: 18px 25px;
+        }
+
         h3 {
           color: $manatee;
           font-size: 5.5vw;
@@ -308,7 +312,7 @@
           padding: 6vw 0 0 0;
         }
 
-         .splash-section-whyus.p-item-list {
+        .splash-section-whyus.p-item-list {
           font-style: italic;
           line-height: 9vw;
           color: $richblack;

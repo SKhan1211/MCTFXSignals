@@ -74,6 +74,13 @@ const Splash = (props) => {
                 right now
               </p>
             </div>
+            <div>
+              <i class="fas fa-dollar-sign"></i>
+              <h3>Top-Class Analysis</h3>
+              <p className="splash-section-whyus p-item-list">
+                Our proven strategies have lasted through many financial crises and are still going strong
+              </p>
+            </div>
           </aside>
 
         </main>
