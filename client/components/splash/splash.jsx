@@ -86,7 +86,6 @@ const Splash = (props) => {
           <aside className="splash-section-offers header__line"></aside>
           <p>Fast track to Professional Trading</p>
         </header>
-
         <div className="splash-section-offers outer__box-container">
           <img 
             src="https://lh3.googleusercontent.com/QN4J0AUHaLi-YXNhWFsssLDLPHXAFxuCqH_sTojrKpynCppBiHRjbZYu34vzWr7MRuOuZiOZNtljnRjV6gVON0t_ydVvkxr3KwpLx0xuBeKezVnZBXu-QBbU4NPX4b_HTGxoCb9uF-lMpR7-69jdD6eHwsIFETCT-a97_t5RumhjOaq8zWir8jgnb8FFm3B3Ycqer9qXAjjUcFDAGvo6j0NyUNkvZM0apixmFC6ckH5zdVh_LM7U_iODPglbF_a_9uD2kyK6J1WV5Jmvu09JVfrTYgNzRP665f7nDQQo8Tl0hIIgcY6nLaLwB62U5ehSSlOIdiKOsuDLLahB9-KSq22FE3kVfV676keZs38qahctkN5JCHUOawdJBjmkvibREcvlsa3F7g7gpTZtUb4i-4DlR7gifoISY_saugXlM_DAqRoMy7EiR_UEFm1aLZh23-0i9LCYoEnQw2pabc89DzC0AAVmXIe8IwVV-PnBFbFXJHAZssKoe-n5vUr-Dc3fVZm_rls-bqr22-cKpbxaJ4pRfqsfA7o9kwqoDFnmj2wdqOMuUmIPedihMzgcFkqTJP_ZmPKsWgngg0nGwLUPldGBgbJIC8M2a4ZRcyoiIWDpclwz3rySsVQMfDM0YPUJ7Rf4UyfOCH4Wc52LnbhRivX6IIfWO90GdZPFX-Ii5v6YRoPhj5RED5Fam0rh-g=w57-h93-no?authuser=0" 
@@ -98,7 +97,6 @@ const Splash = (props) => {
             </p>
           </div>
         </div>
-
         <div className="splash-section-offers outer__box-container">
           <i className="fas fa-chalkboard-teacher"></i>
           <div className="splash-section-offers box__header-container">
@@ -108,7 +106,6 @@ const Splash = (props) => {
             </p>
           </div>
         </div>
-
         <div className="splash-section-offers outer__box-container">
           <i class="fas fa-users"></i>
           <div className="splash-section-offers box__header-container">
@@ -118,8 +115,9 @@ const Splash = (props) => {
             </p>
           </div>
         </div>
-
       </section>
+
+      <div className="splash-section-contact container"></div>
 
       {/* <p>
         Disclaimer: Foreign exchange trading on margin carries a high level of risk and may not be suitable for all investors.
