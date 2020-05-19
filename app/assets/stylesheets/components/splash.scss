@@ -444,9 +444,10 @@
   background: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
     url(https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880_1280.jpg) no-repeat center fixed;
-  height: 85vw;
   background-size: cover;
   font-family: $roboto;
+
+  height: 135vw; // TEST
 
   h3 {
     color: $platinum;
@@ -481,10 +482,50 @@
 
   p {
     color: $granitegray;
-    padding: 12vw 5vw;
+    padding: 12vw 5vw 7vw 5vw;
     text-align: center;
     letter-spacing: 2px;
     font-size: 4.4vw;
     text-shadow: 1px 1px 1px black;
+  }
+
+  .splash-section-contact.input-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7vw;
+
+    input {
+      background: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid $platinum;
+      font-size: 6vw;
+      margin-bottom: 7vw;
+      padding-bottom: 5vw;
+      color: $platinum;
+    }
+
+    input::placeholder {
+      color: gray;
+    }
+
+    textarea {
+      background: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid $platinum;
+      margin-bottom: 7vw;
+      font-size: 6vw;
+      font-family: Arial, Helvetica, sans-serif;
+      color: $platinum;
+    }
+
+    textarea::placeholder {
+      color: gray;
+    }
+
+    input:last-child {
+      background-color: black;
+    }
   }
 }
