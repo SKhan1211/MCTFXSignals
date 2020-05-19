@@ -7,7 +7,7 @@ const Splash = (props) => {
         <nav>
           <div className="splash-section-header nav__left-side">
             <i className="fas fa-bars"></i>
-            <img src="https://lh6.googleusercontent.com/lkoLPdhQyoy-4ZpNP63qcFxmaipeNH55YSDx8hVMTyiMB3kaMxRv1gI8GuboQ45qWOXOpbdLaImF8oT0MYcc=w2880-h1304"></img>
+            <img src="https://lh3.googleusercontent.com/ZdHc5M_HNZ-YKK-u3Lbgna6hStST38UPylBPglF_i9z686LCjHFo9Av0kP6AcE0RIKGaZL5aKrPLovSTR5GgKvmXMhiGdUzoJHJHg1HIDTUoe7fR1Cz5NLT-U0T_56Wp4lycsuY27kn1BzqwYtuFPWan6aOWjFZRvpcbeggrHDbsGoolUBMpXC3VWbTkrzqBYnRqxo_2p3nKzyCBtZdZFsY2hgPbk2vy8xc33nK8YYWmB6y_bZ6GOkL_Mv9VpSEE1cLVCawNVL0xZBnUhI-KuGIFEKz4pG8DU4d5UPJYMVkcqfssxDUFBU9Pl5i2zwrrUl41oE8kEPTgmn10N2Qh9JCKvqE4PSXWwjG0QPZ_CaOUEqR8gi8TLycawGuTrcpxn_OFk59QW6TxWGIgeBAjwKYrpSNz2b-W-i8nMQZd-eFNHtN0sAnPfNQ0NdOFSSN9bnEB8zgWul0nzHTlQqX4tzRgp3rWBPXQ3FBzE-Egi6ZFeiTlVSpCBKDdjyF8CfUbG22CGnucmk6EKTSz7uvb3u3CP40MSezvEVhp9VzyQSpc5oCBUucmwCR9XZcQ4HKdNw52VVpf7GMaZ4c3ZpK15JBQktpdWyUD-y1yUJXIWY0X_2UmwYyuztFXNJ-om5tMay7Wy-8jDEjuXIHa9-85uI2dx7dqlYwxy4M60H90KGHw2Z4JcQLschc2k8GY_Q=w577-h448-no?authuser=0"></img>
           </div>
           <div className="splash-section-header nav__right-side">
             <button className="splash-section-header nav__right-side__sign-in" onClick={() => props.history.push('/login')}>Sign In</button>
