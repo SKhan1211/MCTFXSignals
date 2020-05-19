@@ -80,15 +80,17 @@ const Splash = (props) => {
           </aside>
         </main>
       </section>
-
       <section className="splash-section-offers container">
-        <h3>What We Offer</h3>
-        <aside className="splash-section-offers header__line"></aside>
-        <p>
-          Fast track to Professional Trading.
-        </p>
+        <header className="splash-section-offers header-container">
+          <h3>What We Offer</h3>
+          <aside className="splash-section-offers header__line"></aside>
+          <p>Fast track to Professional Trading</p>
+        </header>
 
-        <div></div>
+        <div className="splash-section-offers outer__box-container">
+          <div></div>
+        </div>
+        <div className="splash-section-offers outer__box-container"></div>
 
       </section>
 
