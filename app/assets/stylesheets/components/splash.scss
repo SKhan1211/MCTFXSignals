@@ -242,7 +242,7 @@
 
   header {
     text-align: center;
-    padding: 10px;
+    padding: 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,7 +252,7 @@
       font-size: 4.5vw;
       font-weight: 500;
       text-transform: uppercase;
-      padding: 16px 0;
+      padding: 5vw 0;
       letter-spacing: 5px;
     }
 
@@ -263,6 +263,7 @@
       font-weight: 600;
       padding: 0px 0;
       letter-spacing: 3px;
+      text-shadow: 1px 1px 2px $granitegray;
 
       span {
         color: $sweetbrown;
@@ -283,14 +284,14 @@
       text-align: center;
       border-radius: 4px;
       color: #6d6d6d;
-      padding: 10px;
+      padding: 3vw;
       line-height: 8vw;
       font-size: 16px;
     }
 
     aside {
       div {
-        padding: 25px 20px 0px 20px;
+        padding: 8vw 5vw 0 5vw;
 
         i {
           font-size: 9vw;

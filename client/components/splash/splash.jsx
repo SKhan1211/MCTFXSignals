@@ -48,7 +48,6 @@ const Splash = (props) => {
           <p>About <span>Us</span></p>
           <div className="splash-section-whyus header__line"></div>
         </header>
-
         <main>
           <p>
             Midnight Crew Trading is a trusted FX signals provider getting your 
@@ -56,7 +55,6 @@ const Splash = (props) => {
             analysis out of your trading so you can sit back and watch your 
             account grow.
           </p>
-
           <aside>
             <div>
               <i className="fas fa-user-tie"></i>
@@ -75,16 +73,14 @@ const Splash = (props) => {
               </p>
             </div>
             <div>
-              <i class="fas fa-dollar-sign"></i>
+              <i className="fas fa-dollar-sign"></i>
               <h3>Top-Class Analysis</h3>
               <p className="splash-section-whyus p-item-list">
                 Our proven strategies have lasted through many financial crises and are still going strong
               </p>
             </div>
           </aside>
-
         </main>
-
       </section>
     </div>
   )
