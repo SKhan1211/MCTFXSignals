@@ -82,10 +82,22 @@ const Splash = (props) => {
       </section>
 
       <section className="splash-section-offers container">
+        <h3>What We Offer</h3>
+        <aside className="splash-section-offers header__line"></aside>
+        <p>
+          Fast track to Professional Trading.
+        </p>
 
         <div></div>
 
       </section>
+
+      {/* <p>
+        Disclaimer: Foreign exchange trading on margin carries a high level of risk and may not be suitable for all investors.
+        Before investing, you should carefully consider your investment objectives, level of experience, and risk appetite.
+        The possibility that you could sustain a loss of some or all of your initial investment exists and therefore you
+        should not invest money you can't afford to lose. Past performance is not indicative of future results.
+      </p> */}
 
     </div>
   )
