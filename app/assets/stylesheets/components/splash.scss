@@ -491,7 +491,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 7vw;
-    padding-bottom: 1vw;
+    padding-bottom: 9vw;
 
     input {
       background: transparent;
@@ -523,14 +523,51 @@
       color: rgb(150, 149, 149);
     }
 
-    input:last-child {
+    button:last-child {
       padding: 3vw 1vw 3vw 1vw;
       width: 44vw;
       background: #882e2f;
-      border: 0;
       box-shadow: 0px 2px 6px 3px black;
       border-radius: 3px;
       margin-top: 4vw;
+      cursor: pointer;
+      position: relative;
+      border: 1px solid #882e2f;
+      color: $platinum;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 6vw;
+    }
+
+    button:last-child:focus {
+      outline: 0;
+      background-color: #a7383a;
+      border: 1px solid #a7383a;
+    }
+
+    button:last-child:before {
+      content: "";
+      outline: 0;
+      background-color: #e6666a40;
+      color: #c1bbbb;
+      position: absolute;
+      border-radius: 30%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transform: scale(0);
+      transition-property: transform;
+      transform-origin: 50%;
+    }
+
+    button:last-child:hover:before {
+      transform: scale(1);
+      border-radius: 3px;
+      transition: all 0.2s;
+    }
+
+    button:last-child:hover {
+      color: white;
     }
   }
 }

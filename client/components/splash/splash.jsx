@@ -107,7 +107,7 @@ const Splash = (props) => {
           </div>
         </div>
         <div className="splash-section-offers outer__box-container">
-          <i class="fas fa-users"></i>
+          <i className="fas fa-users"></i>
           <div className="splash-section-offers box__header-container">
             <h3>Collaborative Forums to Take Your Trading to the Next Level</h3>
             <p>
@@ -116,7 +116,6 @@ const Splash = (props) => {
           </div>
         </div>
       </section>
-
       <section className="splash-section-contact container">
         <div className="splash-section-contact heading__text-container">
           <h3>Have Questions?</h3>
@@ -129,7 +128,7 @@ const Splash = (props) => {
           <input type="text" name="Name" placeholder="Name" required />
           <input type="email" name="Email" placeholder="Email" required />
           <textarea name="Mesage" placeholder="Message..." required/>
-          <input type="submit" value="Send" />
+          <button type="submit">Send</button>
         </div>
       </section>
 
