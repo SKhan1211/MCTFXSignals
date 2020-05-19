@@ -58,7 +58,7 @@ const Splash = (props) => {
               <i className="fas fa-user-tie"></i>
               <h3>Professional Research</h3>
               <p className="splash-section-whyus p-item-list">
-                Our years of experience in financial markets means you can trust our analysis is uniquely
+                Our years of experience in financial markets means you can trust our analysis is unique
                 and thoroughly conducted for every pair
               </p>
             </div>
@@ -81,7 +81,11 @@ const Splash = (props) => {
         </main>
       </section>
 
-      <section className="splash-section-offers container"></section>
+      <section className="splash-section-offers container">
+
+        <div></div>
+
+      </section>
 
     </div>
   )

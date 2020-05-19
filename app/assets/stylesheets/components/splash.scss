@@ -304,7 +304,7 @@
           border: 4px solid #752a2b;
           border-radius: 50%;
           padding: 6vw;
-          color: #752a2b;
+          color: #ccad0c;
         }
 
         .fa-dollar-sign {
@@ -330,7 +330,18 @@
 }
 
 .splash-section-offers.container {
+  display: flex;
+  justify-content: center;
 
   height: 50vh; // TEST
-  background-color: #752a2c;
+  background-color: #612223;
+
+  div { // TEST
+    height: 240px;
+    width: 80%;
+    margin-top: 20px;
+    background-color: #882e2f;
+    box-shadow: 1px 1px 21px -7px #171717;
+
+  }
 }
