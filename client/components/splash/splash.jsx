@@ -56,6 +56,26 @@ const Splash = (props) => {
             analysis out of your trading so you can sit back and watch your 
             account grow.
           </p>
+
+          <aside>
+            <div>
+              <i className="fas fa-user-tie"></i>
+              <h3>Professional Research</h3>
+              <p className="splash-section-whyus p-item-list">
+                Our years of experience in financial markets means you can trust our analysis is uniquely
+                and thoroughly conducted for every pair
+              </p>
+            </div>
+            <div>
+              <i className="fas fa-chart-bar"></i>
+              <h3>Market Insights</h3>
+              <p className="splash-section-whyus p-item-list">
+                We will keep you up to date with everything you need to know happening in the markets 
+                right now
+              </p>
+            </div>
+          </aside>
+
         </main>
 
       </section>
