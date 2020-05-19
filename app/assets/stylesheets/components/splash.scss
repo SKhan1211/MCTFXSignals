@@ -375,7 +375,7 @@
 
   .splash-section-offers.outer__box-container { // TEST
     height: 240px;
-    width: 80%;
+    width: 88%;
     margin-top: 10px;
     background-color: #882e2f;
     box-shadow: 1px 1px 21px -7px #171717;
@@ -383,6 +383,45 @@
     box-sizing: border-box;
     border: 2px solid #882e2f;
     transition: border 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+      height: 11vw;
+      padding-top: 4vw;
+    }
+
+    .splash-section-offers.box__header-container {
+      position: relative;
+        
+      h3 {
+        color: white;
+        padding: 9vw 5vw 5vw 5vw;
+        font-size: 4.6vw;
+        font-weight: 300;
+        letter-spacing: 0.2vw;
+        text-shadow: 1px 1px 5px #000000;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: #1d1b15;
+        font-size: 5vw;
+        padding: 0 3vw;
+      }
+    }
+
+    .splash-section-offers.box__header-container:after {
+      content: '';
+      position: absolute;
+      border-bottom: 1px solid #a58b09;
+      height: 1px;
+      width: 17%;
+      top: 5%;
+      left: 42%;
+    }
   }
 
   .splash-section-offers.outer__box-container:hover {
