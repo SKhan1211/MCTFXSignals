@@ -117,7 +117,15 @@ const Splash = (props) => {
         </div>
       </section>
 
-      <div className="splash-section-contact container"></div>
+      <div className="splash-section-contact container">
+        <div>
+          <h3>Have Questions?</h3>
+          <p>
+            If you'd like to know any more additional information, feel free to email us today. We promise we will get back to you
+            as soon as possible!
+          </p>
+        </div>
+      </div>
 
       {/* <p>
         Disclaimer: Foreign exchange trading on margin carries a high level of risk and may not be suitable for all investors.

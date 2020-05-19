@@ -422,7 +422,7 @@
     .splash-section-offers.box__header-container:after {
       content: '';
       position: absolute;
-      border-bottom: 1px solid #a58b09;
+      border-bottom: 3px solid #a58b09;
       height: 1px;
       width: 17%;
       top: 5%;
@@ -441,9 +441,50 @@
 }
 
 .splash-section-contact.container {
-    background: 
-      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880_1280.jpg) no-repeat center fixed;
-    height: 85vw;
-    background-size: cover;
+  background: 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url(https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880_1280.jpg) no-repeat center fixed;
+  height: 85vw;
+  background-size: cover;
+  font-family: $roboto;
+
+  h3 {
+    color: $platinum;
+    font-size: 8vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 9vw;
+    letter-spacing: 1px;
+    position: relative;
+  }
+
+  h3:before {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #9e3435;
+    height: 1px;
+    width: 56%;
+    left: 5vw;
+    top: 20vw;
+  }
+
+  h3:after {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #9e3435;
+    height: 1px;
+    width: 90%;
+    left: 5vw;
+    top: 23vw;
+  }
+
+  p {
+    color: $granitegray;
+    padding: 12vw 5vw;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 4.4vw;
+    text-shadow: 1px 1px 1px black;
+  }
 }
