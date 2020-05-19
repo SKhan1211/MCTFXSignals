@@ -27,7 +27,6 @@ const Splash = (props) => {
           <a href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></a>
           <a href="https://www.twitter.com/" target="_blank"><i className="fab fa-twitter"></i></a>
         </nav>
-
         <main>
           <p>Get your first signal FREE, on us!</p>
           <p>
