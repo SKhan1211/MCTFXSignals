@@ -332,13 +332,11 @@
 
 .splash-section-offers.container {
   display: flex;
-  // justify-content: center;
   font-family: $roboto;
   flex-direction: column;
   align-items: center;
-
-  height: 150vh; // TEST
   background-color: #612223;
+  padding-bottom: 6vw;
 
   header {
     display: flex;
@@ -374,12 +372,12 @@
   }
 
   .splash-section-offers.outer__box-container { // TEST
-    height: 240px;
+    height: 251px;
     width: 88%;
     margin-top: 10px;
     background-color: #882e2f;
     box-shadow: 1px 1px 21px -7px #171717;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
     box-sizing: border-box;
     border: 2px solid #882e2f;
     transition: border 0.5s ease-in;
@@ -393,23 +391,32 @@
       padding-top: 4vw;
     }
 
+    i {
+      font-size: 9vw;
+      padding-top: 5vw;
+      color: #bb9d08;
+    }
+
     .splash-section-offers.box__header-container {
       position: relative;
         
       h3 {
         color: white;
-        padding: 9vw 5vw 5vw 5vw;
+        padding: 7vw 5vw 3vw 5vw;
         font-size: 4.6vw;
         font-weight: 300;
         letter-spacing: 0.2vw;
         text-shadow: 1px 1px 5px #000000;
         text-transform: uppercase;
+        line-height: 7vw;
       }
 
       p {
         color: #1d1b15;
         font-size: 5vw;
         padding: 0 3vw;
+        line-height: 5.7vw;
+        padding-bottom: 12vw;
       }
     }
 
@@ -420,7 +427,7 @@
       height: 1px;
       width: 17%;
       top: 5%;
-      left: 42%;
+      left: 41.8%;
     }
   }
 

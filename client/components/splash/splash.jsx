@@ -93,11 +93,30 @@ const Splash = (props) => {
           />
           <div className="splash-section-offers box__header-container">
             <h3>High Quality Forex Signals</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fames ac turpis egestas maecenas pharetra convallis. Ac tincidunt vitae semper quis.</p>
+            <p>
+              Our signals are precisely formulated to make you you money. We take into factor all accounts that drive the FX markets, including technical analysis, fundamental analysis, and geopolitical news.
+            </p>
           </div>
         </div>
-        <div className="splash-section-offers outer__box-container">
 
+        <div className="splash-section-offers outer__box-container">
+          <i className="fas fa-chalkboard-teacher"></i>
+          <div className="splash-section-offers box__header-container">
+            <h3>Industry Standard Education By Forex Pros</h3>
+            <p>
+              Forex is well known for it's 95% loss rate. Don't be part of the statistics. Join us and we will teach you all of the tools you need to trade for a living!
+            </p>
+          </div>
+        </div>
+
+        <div className="splash-section-offers outer__box-container">
+          <i class="fas fa-users"></i>
+          <div className="splash-section-offers box__header-container">
+            <h3>Collaborative Forums to Take Your Trading to the Next Level</h3>
+            <p>
+              Our community looks out for each other and we strive to help everyone we can find success in one of the hardest financial markets in existence.
+            </p>
+          </div>
         </div>
 
       </section>
