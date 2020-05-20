@@ -400,7 +400,7 @@
       position: relative;
         
       h3 {
-        color: white;
+        color: $platinum;
         padding: 7vw 5vw 3vw 5vw;
         font-size: 4.6vw;
         font-weight: 300;
@@ -578,11 +578,9 @@
   flex-direction: column;
   align-items: center;
 
-  height: 200vw; // TEST
-
   img {
     width: 90%;
-    padding: 8vw 0;
+    padding: 10vw 0 8vw 0;
   }
 
   .splash-section-footer.divider__line {
@@ -603,7 +601,7 @@
 
     .mobile__number-container {
       display: flex;
-      padding-bottom: 5vw;
+      padding-bottom: 6vw;
       align-items: center;
       padding-left: 3.5vw;
       letter-spacing: 0.2vw;
@@ -617,7 +615,7 @@
 
     .email-container {
       display: flex;
-      padding-bottom: 5vw;
+      padding-bottom: 7vw;
       align-items: center;
       padding-left: 3vw;
       letter-spacing: 0.2vw;
@@ -637,12 +635,16 @@
       font-size: 5vw;
 
       p {
-        padding-bottom: 2vw;
+        padding-bottom: 5vw;
         cursor: pointer;
       }
 
       p:last-of-type {
-        padding-bottom: 0;
+        padding-bottom: 3vw;
+      }
+
+      p:hover {
+        text-decoration: underline;
       }
     }
 
@@ -654,13 +656,56 @@
       font-size: 5vw;
 
       p {
-        padding-bottom: 2vw;
+        padding-bottom: 5vw;
         cursor: pointer;
       }
 
       p:last-of-type {
-        padding-bottom: 0;
+        padding-bottom: 3vw;
       }
+
+      p:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .splash-section-footer.follow__links-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 2vw 3vw;
+
+      a {
+        text-decoration: none;
+        color: #65656e;
+        font-size: 7vw;
+        border: 2px solid #64646d;
+        padding: 2.3vw 1.7vw;
+        border-radius: 3px;
+        min-width: 9vw;
+        text-align: center;
+      }
+
+      a:hover {
+        color: #a63d3f;
+        border: 2px solid #a63d3f
+      }
+    }
+
+    .splash-section-footer.disclaimer__text {
+      letter-spacing: 0px;
+      line-height: 6vw;
+      text-transform: uppercase;
+      padding: 5vw 0vw 0vw 0vw;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    .splash-section-footer.copyright__text {
+      padding: 6vw 0 0 0;
+      font-style: italic;
+      font-size: 5vw;
     }
   }
 }
