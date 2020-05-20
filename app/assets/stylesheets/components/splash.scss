@@ -710,3 +710,12 @@
     }
   }
 }
+
+@media only screen and (max-width: 640px){ // KEY TO MOVE THIS LATER TEMP FIX
+  .splash-section-contact.container {
+    background: 
+      linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+      url(asset-path('stock.jpg')) no-repeat center scroll;
+    background-size: cover;
+  }
+}
