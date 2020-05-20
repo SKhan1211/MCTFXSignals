@@ -142,7 +142,7 @@ const Splash = (props) => {
             <p>+1 (888) 888-8888</p>
           </div>
           <div className="splash-section-footer email-container">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
             <p>mctsignals@gmail.com</p>
           </div>
 
