@@ -7,7 +7,7 @@ const Splash = (props) => {
         <nav>
           <div className="splash-section-header nav__left-side">
             <i className="fas fa-bars"></i>
-            <img src="https://lh3.googleusercontent.com/ZdHc5M_HNZ-YKK-u3Lbgna6hStST38UPylBPglF_i9z686LCjHFo9Av0kP6AcE0RIKGaZL5aKrPLovSTR5GgKvmXMhiGdUzoJHJHg1HIDTUoe7fR1Cz5NLT-U0T_56Wp4lycsuY27kn1BzqwYtuFPWan6aOWjFZRvpcbeggrHDbsGoolUBMpXC3VWbTkrzqBYnRqxo_2p3nKzyCBtZdZFsY2hgPbk2vy8xc33nK8YYWmB6y_bZ6GOkL_Mv9VpSEE1cLVCawNVL0xZBnUhI-KuGIFEKz4pG8DU4d5UPJYMVkcqfssxDUFBU9Pl5i2zwrrUl41oE8kEPTgmn10N2Qh9JCKvqE4PSXWwjG0QPZ_CaOUEqR8gi8TLycawGuTrcpxn_OFk59QW6TxWGIgeBAjwKYrpSNz2b-W-i8nMQZd-eFNHtN0sAnPfNQ0NdOFSSN9bnEB8zgWul0nzHTlQqX4tzRgp3rWBPXQ3FBzE-Egi6ZFeiTlVSpCBKDdjyF8CfUbG22CGnucmk6EKTSz7uvb3u3CP40MSezvEVhp9VzyQSpc5oCBUucmwCR9XZcQ4HKdNw52VVpf7GMaZ4c3ZpK15JBQktpdWyUD-y1yUJXIWY0X_2UmwYyuztFXNJ-om5tMay7Wy-8jDEjuXIHa9-85uI2dx7dqlYwxy4M60H90KGHw2Z4JcQLschc2k8GY_Q=w577-h448-no?authuser=0"></img>
+            <img src={window.firstLogo}></img>
           </div>
           <div className="splash-section-header nav__right-side">
             <button className="splash-section-header nav__right-side__sign-in" onClick={() => props.history.push('/login')}>Sign In</button>
@@ -87,9 +87,7 @@ const Splash = (props) => {
           <p>Fast track to Professional Trading</p>
         </header>
         <div className="splash-section-offers outer__box-container">
-          <img 
-            src="https://lh3.googleusercontent.com/QN4J0AUHaLi-YXNhWFsssLDLPHXAFxuCqH_sTojrKpynCppBiHRjbZYu34vzWr7MRuOuZiOZNtljnRjV6gVON0t_ydVvkxr3KwpLx0xuBeKezVnZBXu-QBbU4NPX4b_HTGxoCb9uF-lMpR7-69jdD6eHwsIFETCT-a97_t5RumhjOaq8zWir8jgnb8FFm3B3Ycqer9qXAjjUcFDAGvo6j0NyUNkvZM0apixmFC6ckH5zdVh_LM7U_iODPglbF_a_9uD2kyK6J1WV5Jmvu09JVfrTYgNzRP665f7nDQQo8Tl0hIIgcY6nLaLwB62U5ehSSlOIdiKOsuDLLahB9-KSq22FE3kVfV676keZs38qahctkN5JCHUOawdJBjmkvibREcvlsa3F7g7gpTZtUb4i-4DlR7gifoISY_saugXlM_DAqRoMy7EiR_UEFm1aLZh23-0i9LCYoEnQw2pabc89DzC0AAVmXIe8IwVV-PnBFbFXJHAZssKoe-n5vUr-Dc3fVZm_rls-bqr22-cKpbxaJ4pRfqsfA7o9kwqoDFnmj2wdqOMuUmIPedihMzgcFkqTJP_ZmPKsWgngg0nGwLUPldGBgbJIC8M2a4ZRcyoiIWDpclwz3rySsVQMfDM0YPUJ7Rf4UyfOCH4Wc52LnbhRivX6IIfWO90GdZPFX-Ii5v6YRoPhj5RED5Fam0rh-g=w57-h93-no?authuser=0" 
-          />
+          <img src={window.candlestick} />
           <div className="splash-section-offers box__header-container">
             <h3>High Quality Forex Signals</h3>
             <p>
@@ -133,7 +131,7 @@ const Splash = (props) => {
       </section>
 
       <section className="splash-section-footer container">
-        <img src="https://lh3.googleusercontent.com/CaFaoYFHxO_qocwxMydARRkLArn6Jw37C51vkry9cvzMUwEx86JHXwPPYpTtq4dpkZ7eKBKjEpWQD3e1p_waz1QtbQnNPopvjnPDfxqTc1-n5mlRGGLA5hIPJblEiZQpmnVJ2j3MJOVKFaoRqxfXAOmdgYbxAgNTzzOtovZw6OcPezZtSEIemVKvonuTH7BB3jx7QM_QLQ8wz1HuCO9UywLCcMnP1zuyV4jFEqUI-_GKRoAWik9yOppaO8QWsBg18FiypGWZ_y8QVNeRjDc4vRU8y7LeNBQhd_m_26SjqVZQBxMrJrqFicR2TqcvZBe42bKQUTS_zmkQpaO70B-Np_hmRv7JdfVTENJVPd_vHKA1686MMCc4rZWzlZXC8zkUq7xHE3kZ0Gpyci317uEFzuIrYrLymNFXzKO2l26O_CjDAaLCP9u0jXapsxfOI5BaAg-eiblDHoRzj12bN9XBw5-h9Zb8PMCuegC2JbVDWX6loDHpU90nwi2JEoz02HgFigQE3kr9lMuWFqaiNSiNq_4v9mvsfedViSh20tCeoQS4xzPP6vY8J1-R_hDmJhkHQ_a3wEiZAmkc31478h_SD6uFILZBVg-GFpPRt9gvYDSf8HFgbKdlR5t1I5x_ip1Z0PfZ2wxN2DwxMrkEOJpEzajU7W8zJ5lL2EJ7Z2jzbx2MY2U7hRCOSoUCHWmAuQ=w709-h208-no?authuser=0" />
+        <img src={window.secondLogo} />
         <div className="splash-section-footer divider__line"></div>
         <div className="splash-section-footer our__info-container">
           <h3>Get In Touch</h3>
