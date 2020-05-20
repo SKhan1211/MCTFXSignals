@@ -132,12 +132,57 @@ const Splash = (props) => {
         </div>
       </section>
 
-      {/* <p>
-        Disclaimer: Foreign exchange trading on margin carries a high level of risk and may not be suitable for all investors.
-        Before investing, you should carefully consider your investment objectives, level of experience, and risk appetite.
-        The possibility that you could sustain a loss of some or all of your initial investment exists and therefore you
-        should not invest money you can't afford to lose. Past performance is not indicative of future results.
-      </p> */}
+      <section className="splash-section-footer container">
+        <img src="https://lh3.googleusercontent.com/CaFaoYFHxO_qocwxMydARRkLArn6Jw37C51vkry9cvzMUwEx86JHXwPPYpTtq4dpkZ7eKBKjEpWQD3e1p_waz1QtbQnNPopvjnPDfxqTc1-n5mlRGGLA5hIPJblEiZQpmnVJ2j3MJOVKFaoRqxfXAOmdgYbxAgNTzzOtovZw6OcPezZtSEIemVKvonuTH7BB3jx7QM_QLQ8wz1HuCO9UywLCcMnP1zuyV4jFEqUI-_GKRoAWik9yOppaO8QWsBg18FiypGWZ_y8QVNeRjDc4vRU8y7LeNBQhd_m_26SjqVZQBxMrJrqFicR2TqcvZBe42bKQUTS_zmkQpaO70B-Np_hmRv7JdfVTENJVPd_vHKA1686MMCc4rZWzlZXC8zkUq7xHE3kZ0Gpyci317uEFzuIrYrLymNFXzKO2l26O_CjDAaLCP9u0jXapsxfOI5BaAg-eiblDHoRzj12bN9XBw5-h9Zb8PMCuegC2JbVDWX6loDHpU90nwi2JEoz02HgFigQE3kr9lMuWFqaiNSiNq_4v9mvsfedViSh20tCeoQS4xzPP6vY8J1-R_hDmJhkHQ_a3wEiZAmkc31478h_SD6uFILZBVg-GFpPRt9gvYDSf8HFgbKdlR5t1I5x_ip1Z0PfZ2wxN2DwxMrkEOJpEzajU7W8zJ5lL2EJ7Z2jzbx2MY2U7hRCOSoUCHWmAuQ=w709-h208-no?authuser=0" />
+        <div className="splash-section-footer divider__line"></div>
+        <div className="splash-section-footer our__info-container">
+          <h3>Get In Touch</h3>
+          <div className="splash-section-footer mobile__number-container">
+            <i className="fas fa-mobile-alt"></i>
+            <p>+1 (888) 888-8888</p>
+          </div>
+          <div className="splash-section-footer email-container">
+            <i class="fas fa-envelope"></i>
+            <p>mctsignals@gmail.com</p>
+          </div>
+
+          <h3>Information</h3>
+          <div className="splash-section-footer information-container">
+            <p>Company Details</p>
+            <p>Our Blog</p>
+            <p>Free Signal Promotion</p>
+            <p>Testimonials</p>
+            <p>Events</p>
+          </div>
+          
+          <h3>Helpful Links</h3>
+          <div className="splash-section-footer helpful__links-container">
+            <p>FAQs</p>
+            <p>Services</p>
+            <p>Terms and Conditions</p>
+            <p>Privacy Policy</p>
+            <p>Careers</p>
+          </div>
+
+          <h3>Stay Connected</h3>
+          <div className="splash-section-footer follow__links-container">
+            <a href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i className="fab fa-twitter"></i></a>
+          </div>
+
+          <p>
+            Disclaimer: Foreign exchange trading on margin carries a high level of risk and may not be suitable for all investors.
+            Before investing, you should carefully consider your investment objectives, level of experience, and risk appetite.
+            The possibility that you could sustain a loss of some or all of your initial investment exists and therefore you
+            should not invest money you can't afford to lose. Past performance is not indicative of future results.
+          </p>
+
+        </div>
+      </section>
+
+      
 
     </div>
   )
