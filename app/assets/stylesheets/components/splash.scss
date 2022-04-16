@@ -1,3 +1,6 @@
+@import '../base/breakpoints.scss';
+@import '../base/utils.scss';
+
 .splash-section-header.container {
   background-image: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -593,6 +596,10 @@
     color: $granitegray;
     padding: 8vw 9vw 9vw 9vw;
 
+    @include mediumBreak {
+      padding: 8vw 9vw spacing(6) 9vw;
+    }
+
     h3 {
       font-size: 8vw;
       font-weight: 500;
@@ -701,12 +708,27 @@
       span {
         font-weight: bold;
       }
+
+      @include mediumBreak {
+        font-size: 1rem;
+        line-height: 3.5rem;
+      }
     }
 
     .splash-section-footer.copyright__text {
       padding: 6vw 0 0 0;
       font-style: italic;
       font-size: 5vw;
+
+      @include mediumBreak {
+        font-size: 1.25rem;
+        text-align: center;
+      }
+
+      @include largeBreak {
+        padding: spacing(3) 0 0 0;
+
+      }
     }
   }
 }

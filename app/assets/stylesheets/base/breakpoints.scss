@@ -1,0 +1,11 @@
+@mixin smallBreak {
+  @media (max-width: 650px) { @content; }
+}
+
+@mixin mediumBreak {
+  @media (min-width: 651px) { @content; }
+}
+
+@mixin largeBreak {
+  @media (min-width: 1200px) { @content; }
+}
