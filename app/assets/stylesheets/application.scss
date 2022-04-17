@@ -13,7 +13,8 @@
  *= require_self
  */
 
- @import "base/reset.scss";
  @import "base/colors.scss";
  @import "base/fonts.scss";
- @import "components/*";
+ @import "base/reset.scss";
+ @import "components/splash/*";
+//  @import "components/*"; // TODO: Need this?

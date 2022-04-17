@@ -1,0 +1,24 @@
+@import '../../base/breakpoints.scss';
+@import '../../base/utils.scss';
+
+.splash-section-footer.disclaimer__text {
+  color: $granitegray;
+  font-size: 3.8vw;
+  letter-spacing: 0px;
+  line-height: 6vw;
+  padding: 5vw 0vw 0vw 0vw;
+  text-transform: uppercase;
+
+  span {
+    font-weight: bold;
+  }
+
+  @include mediumBreak {
+    font-size: 1rem;
+    line-height: 3.5rem;
+    padding: 0 9vw spacing(5) 9vw;
+
+    position: relative;
+    top: spacing(-2);
+  }
+}

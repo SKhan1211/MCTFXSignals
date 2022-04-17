@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { smallScreenSize } from '../../util/helpers';
+import { Disclaimer } from './disclaimer';
 
 const Splash = (props) => {
   return (
@@ -132,34 +134,44 @@ const Splash = (props) => {
 
       <section className="splash-section-footer container">
         <img src={window.secondLogo} />
+        {!smallScreenSize() && <Disclaimer />}
+
         <div className="splash-section-footer divider__line"></div>
         <div className="splash-section-footer our__info-container">
-          <h3>Get In Touch</h3>
-          <div className="splash-section-footer mobile__number-container">
-            <i className="fas fa-mobile-alt"></i>
-            <p>+1 (888) 888-8888</p>
-          </div>
-          <div className="splash-section-footer email-container">
-            <i className="fas fa-envelope"></i>
-            <p>mctsignals@gmail.com</p>
-          </div>
+          <div className="our__info-wrapper">
+            <div>
+              <h3>Get In Touch</h3>
+              <div className="splash-section-footer mobile__number-container">
+                <i className="fas fa-mobile-alt"></i>
+                <p>+1 (888) 888-8888</p>
+              </div>
+              <div className="splash-section-footer email-container">
+                <i className="fas fa-envelope"></i>
+                <p>mctsignals@gmail.com</p>
+              </div>
+            </div>
 
-          <h3>Information</h3>
-          <div className="splash-section-footer information-container">
-            <p>Company Details</p>
-            <p>Our Blog</p>
-            <p>Free Signal Promotion</p>
-            <p>Testimonials</p>
-            <p>Events</p>
-          </div>
-          
-          <h3>Helpful Links</h3>
-          <div className="splash-section-footer helpful__links-container">
-            <p>FAQs</p>
-            <p>Services</p>
-            <p>Terms and Conditions</p>
-            <p>Privacy Policy</p>
-            <p>Careers</p>
+            <div>
+              <h3>Information</h3>
+              <div className="splash-section-footer information-container">
+                <p>Company Details</p>
+                <p>Our Blog</p>
+                <p>Free Signal Promotion</p>
+                <p>Testimonials</p>
+                <p>Events</p>
+              </div>
+            </div>
+            
+            <div>
+              <h3>Helpful Links</h3>
+              <div className="splash-section-footer helpful__links-container">
+                <p>FAQs</p>
+                <p>Services</p>
+                <p>Terms and Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Careers</p>
+              </div>
+            </div>
           </div>
 
           <h3>Stay Connected</h3>
@@ -170,15 +182,8 @@ const Splash = (props) => {
             <a href="https://www.twitter.com/" target="_blank"><i className="fab fa-twitter"></i></a>
           </div>
 
-          <p className="splash-section-footer disclaimer__text">
-            <span>Disclaimer:</span> Foreign exchange trading on margin carries a high level of risk and may not be suitable for all investors.
-            Before investing, you should carefully consider your investment objectives, level of experience, and risk appetite.
-            The possibility that you could sustain a loss of some or all of your initial investment exists and therefore you
-            should not invest money you can't afford to lose. Past performance is not indicative of future results.
-          </p>
-
-          <p className="splash-section-footer copyright__text">Copyright © 2020 MCT Signals</p>
-
+          {smallScreenSize() && <Disclaimer />}
+          <p className="splash-section-footer copyright__text">Copyright © 2022 MCT Signals</p>
         </div>
       </section>
     </div>
