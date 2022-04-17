@@ -4,6 +4,7 @@ setup:
     as: DATABASE
 build:
   config:
+    NODE_ENV: production
     RAILS_ENV: production
   docker:
     web: Dockerfile

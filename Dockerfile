@@ -14,7 +14,7 @@ COPY . /usr/src/node_app
 
 RUN npm run postinstall
 
-FROM ruby:2.5.8-alpine
+FROM ruby:2.5.1-alpine
 
 RUN apk add --no-cache --update build-base \
   linux-headers \
@@ -23,12 +23,10 @@ RUN apk add --no-cache --update build-base \
   nodejs \
   tzdata
 
-ARG DATABASE_URL="postgres://postgres@db"
 ARG RAILS_ENV=production
 
 WORKDIR /my_app
 COPY Gemfile /my_app/Gemfile
-# COPY Gemfile.lock /my_app/Gemfile.lock
 
 RUN gem install bundler && bundle install 
 COPY . /my_app
