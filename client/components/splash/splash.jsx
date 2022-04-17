@@ -134,32 +134,40 @@ const Splash = (props) => {
         <img src={window.secondLogo} />
         <div className="splash-section-footer divider__line"></div>
         <div className="splash-section-footer our__info-container">
-          <h3>Get In Touch</h3>
-          <div className="splash-section-footer mobile__number-container">
-            <i className="fas fa-mobile-alt"></i>
-            <p>+1 (888) 888-8888</p>
-          </div>
-          <div className="splash-section-footer email-container">
-            <i className="fas fa-envelope"></i>
-            <p>mctsignals@gmail.com</p>
-          </div>
+          <div className="our__info-wrapper">
+            <div>
+              <h3>Get In Touch</h3>
+              <div className="splash-section-footer mobile__number-container">
+                <i className="fas fa-mobile-alt"></i>
+                <p>+1 (888) 888-8888</p>
+              </div>
+              <div className="splash-section-footer email-container">
+                <i className="fas fa-envelope"></i>
+                <p>mctsignals@gmail.com</p>
+              </div>
+            </div>
 
-          <h3>Information</h3>
-          <div className="splash-section-footer information-container">
-            <p>Company Details</p>
-            <p>Our Blog</p>
-            <p>Free Signal Promotion</p>
-            <p>Testimonials</p>
-            <p>Events</p>
-          </div>
-          
-          <h3>Helpful Links</h3>
-          <div className="splash-section-footer helpful__links-container">
-            <p>FAQs</p>
-            <p>Services</p>
-            <p>Terms and Conditions</p>
-            <p>Privacy Policy</p>
-            <p>Careers</p>
+            <div>
+              <h3>Information</h3>
+              <div className="splash-section-footer information-container">
+                <p>Company Details</p>
+                <p>Our Blog</p>
+                <p>Free Signal Promotion</p>
+                <p>Testimonials</p>
+                <p>Events</p>
+              </div>
+            </div>
+            
+            <div>
+              <h3>Helpful Links</h3>
+              <div className="splash-section-footer helpful__links-container">
+                <p>FAQs</p>
+                <p>Services</p>
+                <p>Terms and Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Careers</p>
+              </div>
+            </div>
           </div>
 
           <h3>Stay Connected</h3>

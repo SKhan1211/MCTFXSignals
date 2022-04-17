@@ -597,13 +597,25 @@
     padding: 8vw 9vw 9vw 9vw;
 
     @include mediumBreak {
-      padding: 8vw 9vw spacing(6) 9vw;
+      padding: 8vw 9vw spacing(2) 9vw;
+    }
+
+    .our__info-wrapper {
+      @include mediumBreak {
+        display: flex;
+        justify-content: space-between;
+      }
     }
 
     h3 {
       font-size: 8vw;
       font-weight: 500;
       padding-bottom: 5vw;
+
+      @include mediumBreak {
+        font-size: 1.5rem;
+        padding-bottom: spacing(4);
+      }
     }
 
     .mobile__number-container {
@@ -618,6 +630,15 @@
         margin-right: 10px;
         font-size: 7vw;
       }
+
+      @include mediumBreak {
+        font-size: 1rem;
+        padding: 0 0 spacing(3) spacing(0.5);
+
+        i {
+          font-size: 1.8rem;
+        }
+      }
     }
 
     .email-container {
@@ -631,6 +652,15 @@
       i {
         margin-right: 10px;
         font-size: 6vw;
+      }
+
+      @include mediumBreak {
+        font-size: 1rem;
+        padding: 0 0 spacing(3) spacing(0.5);
+
+        i {
+          font-size: 1.8rem;
+        }
       }
     }
 
@@ -653,6 +683,15 @@
       p:hover {
         text-decoration: underline;
       }
+
+      @include mediumBreak {
+        font-size: 1rem;
+        padding: 0 0 spacing(4) spacing(0.25);
+
+        p {
+          padding-bottom: spacing(3);
+        }
+      }
     }
 
     .splash-section-footer.helpful__links-container {
@@ -673,6 +712,15 @@
 
       p:hover {
         text-decoration: underline;
+      }
+
+      @include mediumBreak {
+        font-size: 1rem;
+        padding: 0 0 spacing(4) spacing(0.25);
+
+        p {
+          padding-bottom: spacing(3);
+        }
       }
     }
 
@@ -696,6 +744,23 @@
         color: #a63d3f;
         border: 2px solid #a63d3f
       }
+
+      @include mediumBreak {
+        padding: 0;
+        justify-content: unset;
+
+        a {
+          border: unset;
+          font-size: 2rem;
+          margin-right: spacing(4);
+          min-width: unset;
+          padding: 0;
+        }
+
+        a:hover {
+          border: unset;
+        }
+      }
     }
 
     .splash-section-footer.disclaimer__text {
@@ -712,6 +777,7 @@
       @include mediumBreak {
         font-size: 1rem;
         line-height: 3.5rem;
+        padding: spacing(6) 0 0 0;
       }
     }
 
@@ -721,7 +787,7 @@
       font-size: 5vw;
 
       @include mediumBreak {
-        font-size: 1.25rem;
+        font-size: 1rem;
         text-align: center;
       }
 
