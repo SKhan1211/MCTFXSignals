@@ -604,7 +604,7 @@
 
     @include mediumBreak {
       box-sizing: border-box;
-      padding: 8vw 9vw spacing(2) 9vw;
+      padding: spacing(9) 9vw spacing(2) 9vw;
       width: 100%;
     }
 
@@ -686,6 +686,10 @@
 
       p:last-of-type {
         padding-bottom: 3vw;
+
+        @include mediumBreak {
+          padding-bottom: spacing(4.5);
+        }
       }
 
       p:hover {
@@ -715,7 +719,7 @@
       }
 
       p:last-of-type {
-        padding-bottom: 3vw;
+        padding-bottom: spacing(4.5);
       }
 
       p:hover {
