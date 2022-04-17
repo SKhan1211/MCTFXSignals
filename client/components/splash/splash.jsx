@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { smallScreenSize } from '../../util/helpers';
+import { Disclaimer } from './disclaimer';
 
 const Splash = (props) => {
   return (
@@ -133,6 +134,8 @@ const Splash = (props) => {
 
       <section className="splash-section-footer container">
         <img src={window.secondLogo} />
+        {!smallScreenSize() && <Disclaimer />}
+
         <div className="splash-section-footer divider__line"></div>
         <div className="splash-section-footer our__info-container">
           <div className="our__info-wrapper">
@@ -179,14 +182,8 @@ const Splash = (props) => {
             <a href="https://www.twitter.com/" target="_blank"><i className="fab fa-twitter"></i></a>
           </div>
 
-          <p className="splash-section-footer disclaimer__text">
-            <span>Disclaimer:</span> Foreign exchange trading on margin carries a high level of risk and may not be suitable for all investors.
-            Before investing, you should carefully consider your investment objectives, level of experience, and risk appetite.
-            The possibility that you could sustain a loss of some or all of your initial investment exists and therefore you
-            should not invest money you can't afford to lose. Past performance is not indicative of future results.
-          </p>
-
-          <p className="splash-section-footer copyright__text">Copyright © 2020 MCT Signals</p>
+          {smallScreenSize() && <Disclaimer />}
+          <p className="splash-section-footer copyright__text">Copyright © 2022 MCT Signals</p>
         </div>
       </section>
     </div>
