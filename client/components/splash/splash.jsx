@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { smallScreenSize } from '../../util/helpers';
 
 const Splash = (props) => {
   return (
@@ -186,7 +187,6 @@ const Splash = (props) => {
           </p>
 
           <p className="splash-section-footer copyright__text">Copyright © 2020 MCT Signals</p>
-
         </div>
       </section>
     </div>
