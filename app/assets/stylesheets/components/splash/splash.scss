@@ -471,7 +471,7 @@
     letter-spacing: 1px;
     position: relative;
 
-    @include largeBreak {
+    @include mediumBreak {
       font-size: 2.5rem;
     }
   }
@@ -484,6 +484,10 @@
     width: 56%;
     left: 5vw;
     top: 20vw;
+
+    @include mediumBreak {
+      top: spacing(19);
+    }
 
     @include largeBreak {
       top: spacing(24);
@@ -499,6 +503,10 @@
     left: 5vw;
     top: 23vw;
 
+    @include mediumBreak {
+      top: spacing(22);
+    }
+
     @include largeBreak {
       top: spacing(27);
     }
@@ -512,8 +520,11 @@
     font-size: 4.4vw;
     text-shadow: 1px 1px 1px black;
 
-    @include largeBreak {
+    @include mediumBreak {
       font-size: 1.5rem;
+    }
+
+    @include largeBreak {
       padding: spacing(13) spacing(5);
     }
   }
@@ -539,7 +550,7 @@
       padding-bottom: 5vw;
       color: rgb(252, 252, 252);
 
-      @include largeBreak {
+      @include mediumBreak {
         font-size: 1.25rem;
         margin-bottom: spacing(10);
         padding-bottom: spacing(3);
@@ -561,7 +572,7 @@
       color: rgb(252, 252, 252);
       resize: vertical;
 
-      @include largeBreak {
+      @include mediumBreak {
         font-size: 1.25rem;
         margin-bottom: spacing(10);
       }
@@ -585,10 +596,14 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: 6vw;
 
-      @include largeBreak {
+      @include mediumBreak {
         font-size: 1.25rem;
         margin-top: unset;
         padding: spacing(0.5) 0;
+        width: spacing(18);
+      }
+
+      @include largeBreak {
         width: spacing(14);
       }
     }
