@@ -334,12 +334,20 @@
 }
 
 .splash-section-offers.container {
-  display: flex;
   font-family: $roboto;
-  flex-direction: column;
-  align-items: center;
   background-color: #612223;
   padding-bottom: 11vw;
+
+  .offers__wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    @include largeBreak {
+      align-items: unset;
+      flex-direction: row;
+    }
+  }
 
   header {
     display: flex;
@@ -355,6 +363,10 @@
       text-shadow: 1px 1px 5px #000000;
       padding-top: 7vw;
       letter-spacing: 0.6vw;
+
+      @include mediumBreak {
+        font-size: 2.5rem;
+      }
      }
 
      .splash-section-offers.header__line {
@@ -371,6 +383,10 @@
       font-weight: 500;
       text-shadow: 1px 1px 0px #000000;
       letter-spacing: 0.4vw;
+
+      @include mediumBreak {
+        font-size: 2rem;
+      }
     } 
   }
 
@@ -388,15 +404,49 @@
     align-items: center;
     text-align: center;
 
+    @include mediumBreak {
+      width: 64%;
+    }
+
+    @include largeBreak {
+      margin: 0 spacing(2);
+
+      &:first-of-type {
+        margin-left: spacing(4);
+      }
+
+      &:last-of-type {
+        margin-right: spacing(4);
+      }
+    }
+
     img {
       height: 11vw;
       padding-top: 4vw;
+
+      @include mediumBreak {
+        height: 2.5rem;
+        padding-top: 3rem;
+      }
+
+      @include largeBreak {
+        padding-top: 2rem;
+      }
     }
 
     i {
       font-size: 9vw;
       padding-top: 5vw;
       color: #bb9d08;
+
+      @include mediumBreak {
+        font-size: 2rem;
+        padding-top: 3rem;
+      }
+
+      @include largeBreak {
+        padding-top: 2rem;
+      }
     }
 
     .splash-section-offers.box__header-container {
@@ -411,6 +461,17 @@
         text-shadow: 1px 1px 5px #000000;
         text-transform: uppercase;
         line-height: 7vw;
+
+        @include mediumBreak {
+          font-size: 1.5rem;
+          line-height: 2.5rem;
+        }
+
+        @include largeBreak {
+          font-size: 1.3rem;
+          line-height: 2rem;
+          padding: 4rem 2rem 1rem 2rem;
+        }
       }
 
       p {
@@ -419,6 +480,17 @@
         padding: 0 3vw;
         line-height: 5.7vw;
         padding-bottom: 12vw;
+
+        @include mediumBreak {
+          font-size: 1.4rem;
+          line-height: 2.8rem;
+        }
+
+        @include largeBreak {
+          font-size: 1.2rem;
+          line-height: 2.2rem;
+          padding-bottom: 2rem;
+        }
       }
     }
 
