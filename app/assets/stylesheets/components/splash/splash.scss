@@ -450,6 +450,17 @@
   background-size: cover;
   font-family: $roboto;
 
+  @include largeBreak {
+    align-items: center;
+    display: flex;
+  }
+
+  .heading__text-container {
+    @include largeBreak {
+      flex: 1 0 50%;
+    }
+  }
+
   h3 {
     color: $platinum;
     font-size: 8vw;
@@ -459,6 +470,10 @@
     padding-top: 9vw;
     letter-spacing: 1px;
     position: relative;
+
+    @include largeBreak {
+      font-size: 2.5rem;
+    }
   }
 
   h3:before {
@@ -469,6 +484,10 @@
     width: 56%;
     left: 5vw;
     top: 20vw;
+
+    @include largeBreak {
+      top: spacing(24);
+    }
   }
 
   h3:after {
@@ -479,6 +498,10 @@
     width: 90%;
     left: 5vw;
     top: 23vw;
+
+    @include largeBreak {
+      top: spacing(27);
+    }
   }
 
   p {
@@ -488,6 +511,11 @@
     letter-spacing: 2px;
     font-size: 4.4vw;
     text-shadow: 1px 1px 1px black;
+
+    @include largeBreak {
+      font-size: 1.5rem;
+      padding: spacing(13) spacing(5);
+    }
   }
 
   .splash-section-contact.input-container {
@@ -495,6 +523,11 @@
     flex-direction: column;
     padding: 0 7vw;
     padding-bottom: 9vw;
+
+    @include largeBreak {
+      flex: 1 1 50%;
+      padding: 4rem 7vw;
+    }
 
     input {
       background: transparent;
@@ -505,6 +538,12 @@
       margin-bottom: 7vw;
       padding-bottom: 5vw;
       color: rgb(252, 252, 252);
+
+      @include largeBreak {
+        font-size: 1.25rem;
+        margin-bottom: spacing(10);
+        padding-bottom: spacing(3);
+      }
     }
 
     input::placeholder {
@@ -520,6 +559,12 @@
       font-size: 6vw;
       font-family: Arial, Helvetica, sans-serif;
       color: rgb(252, 252, 252);
+      resize: vertical;
+
+      @include largeBreak {
+        font-size: 1.25rem;
+        margin-bottom: spacing(10);
+      }
     }
 
     textarea::placeholder {
@@ -539,6 +584,13 @@
       color: $platinum;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 6vw;
+
+      @include largeBreak {
+        font-size: 1.25rem;
+        margin-top: unset;
+        padding: spacing(0.5) 0;
+        width: spacing(14);
+      }
     }
 
     button:last-child:focus {
