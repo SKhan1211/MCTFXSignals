@@ -8,9 +8,9 @@ ENV PATH /usr/src/node_app/node_modules/.bin:$PATH
 
 COPY package.json /usr/src/node_app/package.json
 
-RUN yarn install --silent
-
 COPY . /usr/src/node_app
+
+RUN yarn install --silent
 
 RUN npm run postinstall
 
