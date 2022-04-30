@@ -31,14 +31,16 @@ const Splash = (props) => {
         </nav>
         <main>
           <p>Get your first signal FREE, on us!</p>
-          <p>
-            Transform your trading by joining the MCT community.
-            Gain access to accurate signals, trade analysis, and market commentary. 
-            We trade what we teach and will empower you to grow with us!
-          </p>
-          <div className="splash-section-services main__button-container">
-            <button>Get Started Now</button>
-            <button>Learn More</button>
+          <div className="splash-section-services text-wrapper">
+            <p>
+              Transform your trading by joining the MCT community.
+              Gain access to accurate signals, trade analysis, and market commentary. 
+              We trade what we teach and will empower you to grow with us!
+            </p>
+            <div className="splash-section-services main__button-container">
+              <button>Get Started Now</button>
+              <button>Learn More</button>
+            </div>
           </div>
         </main>
       </section>

@@ -173,12 +173,15 @@
       color: $richblack;
     }
 
-    p:nth-of-type(2) {
-      text-align: center;
-      padding: 4.7vw 3.8vw;
-      font-size: 4.4vw;
-      color: $granitegray;
-      line-height: 5.5vw;
+    .text-wrapper {
+      p {
+        text-align: center;
+        padding: 4.7vw 3.8vw;
+        font-size: 4.4vw;
+        color: $granitegray;
+        line-height: 5.5vw;
+        font-weight: 400;
+      }
     }
 
     .main__button-container {
@@ -249,6 +252,10 @@
     flex-direction: column;
     align-items: center;
 
+    @include largeBreak {
+      padding: unset;
+    }
+
     p:first-of-type {
       color: $sweetbrown;
       font-size: 4.5vw;
@@ -256,6 +263,11 @@
       text-transform: uppercase;
       padding: 5vw 0;
       letter-spacing: 5px;
+
+      @include mediumBreak {
+        font-size: 1.5rem;
+        padding: 3.5rem 0 2.5rem 0;
+      }
     }
 
     p:last-of-type {
@@ -267,6 +279,10 @@
       letter-spacing: 3px;
       text-shadow: 1px 1px 2px $granitegray;
 
+      @include mediumBreak {
+        font-size: 3rem;
+      }
+
       span {
         color: $sweetbrown;
       }
@@ -276,6 +292,14 @@
       border-bottom: 1px solid $richblack;
       padding: 8px;
       width: 75%;
+
+      @include mediumBreak {
+        width: 50%;
+      }
+
+      @include largeBreak {
+        padding: spacing(2.25);
+      }
     }
   }
 
@@ -293,6 +317,15 @@
 
     #about-us-p {
       padding: 3vw 3vw 8vw 3vw;
+
+      @include mediumBreak {
+        font-size: 1.25rem;
+        line-height: 2rem;
+      }
+
+      @include largeBreak {
+        padding: 3.5rem 10rem 4.5rem 10rem;
+      }
     }
 
     aside {
@@ -342,6 +375,10 @@
           @include mediumBreak {
             font-size: 2rem;
           }
+
+          @include largeBreak {
+            font-size: 1.5rem;
+          }
         }
 
         .splash-section-whyus.p-item-list {
@@ -353,6 +390,11 @@
           @include mediumBreak {
             font-size: 1.5rem;
             line-height: 3rem;
+          }
+
+          @include largeBreak {
+            font-size: 1.2rem;
+            line-height: 2.5rem;
           }
         }
       }
