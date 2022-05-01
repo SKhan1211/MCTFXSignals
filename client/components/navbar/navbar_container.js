@@ -5,15 +5,15 @@ import Navbar from './navbar';
 
 const mapStateToProps = ({ session, entities: { users } }) => {
   return {
-    currentUser: users[session.id]
+    currentUser: users[session.id],
   };
 };
 
 const mapDispatchToProps = dispatch => ({
-  logout: () => dispatch(logout())
+  logout: () => dispatch(logout()),
 });
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
-)(Navbar)
+  mapDispatchToProps,
+)(Navbar);
