@@ -17,11 +17,11 @@ const App = () => {
 
     // Subscribe to window resize event on componentDidMount
     window.addEventListener('resize', handleResizeWindow);
-    
+
     // Unsubscribe to window resize event on componentWillUnmount
     return () => {
       window.removeEventListener('resize', handleResizeWindow);
-    }
+    };
   }, []);
 
   return (
